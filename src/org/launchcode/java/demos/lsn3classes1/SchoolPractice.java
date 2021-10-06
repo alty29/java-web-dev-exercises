@@ -1,5 +1,7 @@
 package org.launchcode.java.demos.lsn3classes1;
 
+import java.util.ArrayList;
+
 public class SchoolPractice {
     public static void main(String[] args) {
         Student student1 = new Student();
