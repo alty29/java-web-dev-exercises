@@ -18,12 +18,6 @@ public class CarTest {
     @Test
     public void testInitialGasTank() {
         Car test_car = new Car("Toyota", "Prius", 10, 50);
-//        Car test_car;
-//
-//        @Before
-//        public void createCarObject() {
-//            test_car = new Car("Toyota", "Prius", 10, 50);
-//        }
         assertEquals(10, test_car.getGasTankLevel(), .001);
     }
 
